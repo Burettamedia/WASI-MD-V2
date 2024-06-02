@@ -20,7 +20,7 @@ global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "sabstudioz8@gmail.com";
-global.location = "Lahore,Pakistan.";
+global.location = "Arusha,Tanzania.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -34,8 +34,8 @@ global.devs = "923135673658";
 global.sudo = process.env.SUDO || "923135673658,923192173398";
 global.owner = process.env.OWNER_NUMBER || "062503438";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -46,16 +46,16 @@ global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
-global.save_status = process.env.AUTO_SAVE_STATUS || "false";
+global.save_status = process.env.AUTO_SAVE_STATUS || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.read_status_from = process.env.READ_STATUS_FROM || "07662r3660";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://wasimdscanner-68feefafb737.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "S2KAZ7JT"
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
@@ -65,8 +65,8 @@ module.exports = {
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
-  ownername: process.env.OWNER_NAME || "WASI",
-  errorChat: process.env.ERROR_CHAT || "923192173398",
+  ownername: process.env.OWNER_NAME || "Director Sam",
+  errorChat: process.env.ERROR_CHAT || "0625034348",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
